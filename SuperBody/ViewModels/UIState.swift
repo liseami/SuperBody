@@ -19,6 +19,17 @@ class UIState : ObservableObject {
         case timeline
         case inbox
         
+        var index : Int{
+            switch self {
+            case .checklist:
+                return 1
+            case .timeline:
+                return 2
+            case .inbox:
+                return 3
+            }
+        }
+        
         var title : String{
             switch self {
             case .checklist:

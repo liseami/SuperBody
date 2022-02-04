@@ -14,7 +14,6 @@ struct ContentView: View {
     @State private var TopColorShow : Bool = true
     var body: some View {
         
-      
             NavigationView {
                 mainviews
                     .overlay(Tabbar())
@@ -31,11 +30,19 @@ struct ContentView: View {
             RadialGradient(gradient: Gradient(colors: [TopColorShow ? Color.init(hex: "4D6A73") : .clear, Color.back1]), center: .topLeading, startRadius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/, endRadius: /*@START_MENU_TOKEN@*/500/*@END_MENU_TOKEN@*/)
                 .animation(.spring(), value: uistate.tabbarTarget)
                 .ignoresSafeArea()
-            switch uistate.tabbarTarget{
-            case .checklist : TodayView()
-            case .timeline : CardsView()
-            case .inbox : InboxView()
+            
+            Group{
+                switch uistate.tabbarTarget{
+                case .checklist :
+                    TodayView()
+                case .timeline :
+                    CardsView()
+                case .inbox :
+                    InboxView()
+                }
             }
+            .animation(.spring(), value: uistate.tabbarTarget)
+            .transition(.offset(y: 24))
         }
     }
 }
