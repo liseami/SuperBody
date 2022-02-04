@@ -1,0 +1,6 @@
+framework module Pods_SuperBody {
+  umbrella header "Pods-SuperBody-umbrella.h"
+
+  export *
+  module * { export * }
+}
