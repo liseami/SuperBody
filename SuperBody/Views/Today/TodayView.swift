@@ -33,19 +33,22 @@ struct TodayView: View {
     }
     
     var today_tasklist : some View{
-        ForEach(0..<12){index in
-            TodayCard()
+        
+        LazyVStack{
+            ForEach(0..<12){index in
+                TodayCard()
+            }
         }
     }
     var today_title : some View {
-        ViewTitle(title: "今日")
+        ViewTitle(title: "今天")
             .padding(.bottom,12)
             .overlay(
-                HStack{
+                HStack(spacing:36){
                 Spacer()
-                    ICON(name: "gear-24",fcolor: .fc1,size: 24){
-                        self.showSettingView.toggle()
-                    }
+                    ICON(sysname: "magnifyingglass",fcolor: .fc1,size: 24, fontWeight: .thin)
+                    
+                    ICON(sysname: "plus",fcolor: .fc1,size: 24, fontWeight: .thin)
             }
                     .padding(.trailing,8)
             )

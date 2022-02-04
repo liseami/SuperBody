@@ -11,7 +11,7 @@ struct ViewTitle: View {
     let title : String
     var body: some View {
         Text(title)
-            .mFont(style: .large32_B,color: .fc1)
+            .mFont(style: .largeTitle_24_B,color: .fc1)
             .PF_Leading()
         
     }

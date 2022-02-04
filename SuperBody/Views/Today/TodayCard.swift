@@ -14,34 +14,40 @@ struct TodayCard: View {
             .frame( height: h )
             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
             .overlay(
-                HStack(spacing:12){
+                HStack(spacing:4){
                     Rectangle()
-                        .fill(Color.init(hex: "1B1B1B"))
+                        .fill(Color.clear)
                         .frame(width: h)
                         .overlay(
-                            Text("\(Int.random(in: 0...300))")
-                                .mFont(style: .large32_B,color: .fc1)
+                           Image("todayCard")
+                            .resizable()
+                            .scaledToFit()
+                            .scaleEffect(0.8)
                         )
-                    VStack(spacing:12){
+                    VStack(alignment: .leading, spacing: 2){
+                        HStack(spacing:4){
+                            Circle()
+                                .fill(Color.green)
+                                .frame(width: 6, height: 6)
+                            Text("已连续执行12天")
+                                .mFont(style: .Caption_10_R,color: Color.green)
+                        }
+                    
                         Text("每日健身")
-                            .mFont(style: .Title_19_B,color: .fc1)
-                            .PF_Leading()
+                            .mFont(style: .Title_17_B,color: .fc1)
                         Text("0/1次")
-                            .mFont(style: .Title_17_B,color: .fc2)
-                            .PF_Leading()
+                            .mFont(style: .Title_17_R,color: .fc2)
                     }
-                    Image("LineCode")
-                        .resizable()
-                        .frame(width: 48)
+                    Spacer()
+                    ICON(sysname: "ellipsis",fcolor: .fc1,size: 16,fontWeight: .light)
+                        .MoveTo(.topCenter)
+                        .padding(.top,24)
                 }
                     .padding(.trailing,24)
                     .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
 
             )
-            .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .stroke(lineWidth: 1)
-                        .foregroundColor(.back2)
-            )
+
     }
 }
 

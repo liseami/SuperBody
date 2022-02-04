@@ -66,9 +66,6 @@ struct SettingView: View {
                            }
                            .padding(.all,20)
                        }
-                 
-                       
-                       
                        versionInfo.MoveTo(.bottomCenter)
                    }
                    .navigationBarTitleDisplayMode(.inline)
