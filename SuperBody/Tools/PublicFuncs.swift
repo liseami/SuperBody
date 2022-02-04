@@ -24,29 +24,13 @@ public func Customappearance() {
     UINavigationBar.appearance().compactAppearance = appearance
     UINavigationBar.appearance().standardAppearance = appearance
     UINavigationBar.appearance().scrollEdgeAppearance = appearance
-    
-    
-    
-//  UITableView.appearance().separatorStyle = .none
-    UITableView.appearance().separatorColor = UIColor(Color.BackGround)
-    
-    UITableViewCell.appearance().backgroundColor = UIColor(Color.BackGround)
-    UITableView.appearance().backgroundColor = .clear
-    
 
-    UITextView.appearance().backgroundColor = UIColor(Color.BackGround)
-  
+//  UITableView.appearance().separatorStyle = .none
+    UITableView.appearance().separatorColor = UIColor(Color.clear)
+    UITableViewCell.appearance().backgroundColor = UIColor(Color.clear)
+    UITableView.appearance().backgroundColor = .clear
+    UITextView.appearance().backgroundColor = UIColor(Color.clear)
     UIView.appearance(whenContainedInInstancesOf: [UIAlertController.self]).tintColor = UIColor(Color.fc1)
-    
-    //    DispatchQueue.main.async {
-    //        //定义屏幕安全区高度
-    //        if #available(iOS 11.0, *) {
-    //            let window = UIApplication.shared.windows[0]
-    //            let safeFrame = window.safeAreaLayoutGuide.layoutFrame
-    //            UIstate.share.topSafeAreaHeight = safeFrame.minY
-    //            UIstate.share.bottomSafeAreaHeight = window.frame.maxY - safeFrame.maxY
-    //        }
-    //    }
     
 }
 

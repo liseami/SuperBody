@@ -25,10 +25,18 @@
 		A293F36D27ACDB9300D5E823 /* Comps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F36827ACDB9300D5E823 /* Comps.swift */; };
 		A293F36E27ACDB9300D5E823 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F36927ACDB9300D5E823 /* Font.swift */; };
 		A293F36F27ACDB9300D5E823 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F36A27ACDB9300D5E823 /* Color.swift */; };
-		A293F37027ACDB9300D5E823 /* UIstate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F36B27ACDB9300D5E823 /* UIstate.swift */; };
 		A293F37427ACDC7100D5E823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F37327ACDC7100D5E823 /* ContentView.swift */; };
 		A293F37727ACDD5800D5E823 /* MiSans-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A293F37627ACDD5800D5E823 /* MiSans-Normal.ttf */; };
 		A293F37927ACDD5C00D5E823 /* MiSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A293F37827ACDD5C00D5E823 /* MiSans-Semibold.ttf */; };
+		A293F37D27AD075300D5E823 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F37C27AD075300D5E823 /* Tabbar.swift */; };
+		A293F37F27AD079B00D5E823 /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F37E27AD079B00D5E823 /* UIState.swift */; };
+		A293F38527AD11D000D5E823 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F38427AD11D000D5E823 /* TodayView.swift */; };
+		A293F38727AD11DA00D5E823 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F38627AD11DA00D5E823 /* CardsView.swift */; };
+		A293F38927AD11E000D5E823 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F38827AD11E000D5E823 /* InboxView.swift */; };
+		A293F38B27AD144800D5E823 /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F38A27AD144800D5E823 /* View++.swift */; };
+		A293F38E27AD1E1C00D5E823 /* TodayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F38D27AD1E1C00D5E823 /* TodayCard.swift */; };
+		A293F39127AD25D000D5E823 /* ViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39027AD25D000D5E823 /* ViewTitle.swift */; };
+		A293F39327AD2CB100D5E823 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39227AD2CB100D5E823 /* SettingView.swift */; };
 		B8DAD9B01271787EEA483321 /* Pods_SuperBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CD30EFC307ABB683883054 /* Pods_SuperBody.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,11 +63,19 @@
 		A293F36827ACDB9300D5E823 /* Comps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comps.swift; sourceTree = "<group>"; };
 		A293F36927ACDB9300D5E823 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		A293F36A27ACDB9300D5E823 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		A293F36B27ACDB9300D5E823 /* UIstate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIstate.swift; sourceTree = "<group>"; };
 		A293F37327ACDC7100D5E823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A293F37627ACDD5800D5E823 /* MiSans-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MiSans-Normal.ttf"; sourceTree = "<group>"; };
 		A293F37827ACDD5C00D5E823 /* MiSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MiSans-Semibold.ttf"; sourceTree = "<group>"; };
 		A293F37A27ACDD8000D5E823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A293F37C27AD075300D5E823 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		A293F37E27AD079B00D5E823 /* UIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
+		A293F38427AD11D000D5E823 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A293F38627AD11DA00D5E823 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		A293F38827AD11E000D5E823 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		A293F38A27AD144800D5E823 /* View++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
+		A293F38D27AD1E1C00D5E823 /* TodayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCard.swift; sourceTree = "<group>"; };
+		A293F39027AD25D000D5E823 /* ViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTitle.swift; sourceTree = "<group>"; };
+		A293F39227AD2CB100D5E823 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		F6CD30EFC307ABB683883054 /* Pods_SuperBody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperBody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,7 +123,10 @@
 				A293F34127ACD86500D5E823 /* Assets.xcassets */,
 				A293F34627ACD86500D5E823 /* Persistence.swift */,
 				A293F34827ACD86500D5E823 /* SuperBody.xcdatamodeld */,
+				A293F38027AD07A000D5E823 /* ViewModels */,
+				A293F37B27AD074700D5E823 /* Views */,
 				A293F36527ACDB9300D5E823 /* UISettings */,
+				A293F38F27AD25BD00D5E823 /* Comps */,
 				A293F35727ACDA1300D5E823 /* Tools */,
 				A293F34327ACD86500D5E823 /* Preview Content */,
 			);
@@ -125,6 +144,7 @@
 		A293F35727ACDA1300D5E823 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A293F38C27AD146B00D5E823 /* EXTENSIONS */,
 				A293F35C27ACDB1000D5E823 /* UMSwift */,
 				A293F35A27ACDA2A00D5E823 /* LacunchManager.swift */,
 				A293F35827ACDA1E00D5E823 /* PublicFuncs.swift */,
@@ -145,10 +165,9 @@
 		A293F36527ACDB9300D5E823 /* UISettings */ = {
 			isa = PBXGroup;
 			children = (
-				A293F37527ACDD4E00D5E823 /* Font */,
 				A293F36627ACDB9300D5E823 /* Buttons.swift */,
+				A293F37527ACDD4E00D5E823 /* Font */,
 				A293F36727ACDB9300D5E823 /* UIConfig */,
-				A293F36B27ACDB9300D5E823 /* UIstate.swift */,
 			);
 			path = UISettings;
 			sourceTree = "<group>";
@@ -170,6 +189,67 @@
 				A293F37827ACDD5C00D5E823 /* MiSans-Semibold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		A293F37B27AD074700D5E823 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A293F38327AD11AB00D5E823 /* Inbox */,
+				A293F38227AD11A200D5E823 /* Cards */,
+				A293F38127AD119B00D5E823 /* Today */,
+				A293F37C27AD075300D5E823 /* Tabbar.swift */,
+				A293F39227AD2CB100D5E823 /* SettingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A293F38027AD07A000D5E823 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A293F37E27AD079B00D5E823 /* UIState.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A293F38127AD119B00D5E823 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				A293F38427AD11D000D5E823 /* TodayView.swift */,
+				A293F38D27AD1E1C00D5E823 /* TodayCard.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		A293F38227AD11A200D5E823 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				A293F38627AD11DA00D5E823 /* CardsView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		A293F38327AD11AB00D5E823 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				A293F38827AD11E000D5E823 /* InboxView.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		A293F38C27AD146B00D5E823 /* EXTENSIONS */ = {
+			isa = PBXGroup;
+			children = (
+				A293F38A27AD144800D5E823 /* View++.swift */,
+			);
+			path = EXTENSIONS;
+			sourceTree = "<group>";
+		};
+		A293F38F27AD25BD00D5E823 /* Comps */ = {
+			isa = PBXGroup;
+			children = (
+				A293F39027AD25D000D5E823 /* ViewTitle.swift */,
+			);
+			path = Comps;
 			sourceTree = "<group>";
 		};
 		CC2564A032D08A2A17E96F4F /* Frameworks */ = {
@@ -324,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A293F38727AD11DA00D5E823 /* CardsView.swift in Sources */,
 				A293F36227ACDB1000D5E823 /* UmMd.swift in Sources */,
 				A293F36427ACDB6700D5E823 /* DefultStore.swift in Sources */,
 				A293F35427ACD9B100D5E823 /* AppDelegate.swift in Sources */,
@@ -332,15 +413,22 @@
 				A293F35927ACDA1E00D5E823 /* PublicFuncs.swift in Sources */,
 				A293F34727ACD86500D5E823 /* Persistence.swift in Sources */,
 				A293F35227ACD94900D5E823 /* SuperBody-Bridging-Header.m in Sources */,
+				A293F39127AD25D000D5E823 /* ViewTitle.swift in Sources */,
+				A293F38927AD11E000D5E823 /* InboxView.swift in Sources */,
 				A293F36C27ACDB9300D5E823 /* Buttons.swift in Sources */,
 				A293F35B27ACDA2A00D5E823 /* LacunchManager.swift in Sources */,
 				A293F36027ACDB1000D5E823 /* UMAnalyticsSwift.swift in Sources */,
+				A293F38E27AD1E1C00D5E823 /* TodayCard.swift in Sources */,
+				A293F37D27AD075300D5E823 /* Tabbar.swift in Sources */,
 				A293F36127ACDB1000D5E823 /* UMCommonSwift.swift in Sources */,
-				A293F37027ACDB9300D5E823 /* UIstate.swift in Sources */,
 				A293F36E27ACDB9300D5E823 /* Font.swift in Sources */,
+				A293F38B27AD144800D5E823 /* View++.swift in Sources */,
+				A293F37F27AD079B00D5E823 /* UIState.swift in Sources */,
 				A293F37427ACDC7100D5E823 /* ContentView.swift in Sources */,
+				A293F39327AD2CB100D5E823 /* SettingView.swift in Sources */,
 				A293F36D27ACDB9300D5E823 /* Comps.swift in Sources */,
 				A293F33E27ACD86500D5E823 /* SuperBodyApp.swift in Sources */,
+				A293F38527AD11D000D5E823 /* TodayView.swift in Sources */,
 				A293F34A27ACD86500D5E823 /* SuperBody.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -454,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -478,6 +566,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SuperBody/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "自律研究所";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -512,6 +601,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SuperBody/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "自律研究所";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
