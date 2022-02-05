@@ -41,8 +41,6 @@ struct ContentView: View {
                     InboxView()
                 }
             }
-            .animation(.spring(), value: uistate.tabbarTarget)
-            .transition(.offset(y: -24))
         }
     }
 }

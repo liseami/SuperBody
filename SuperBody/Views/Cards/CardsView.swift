@@ -9,12 +9,18 @@ import SwiftUI
 
 struct CardsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        DreamCard()
+            .padding(.horizontal,32)
+            .PF_Shadow(color: .black, style: .s700)
+            
+            
     }
 }
 
 struct CardsView_Previews: PreviewProvider {
     static var previews: some View {
         CardsView()
+            .isPreview()
     }
 }
