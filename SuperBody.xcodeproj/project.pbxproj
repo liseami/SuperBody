@@ -39,6 +39,7 @@
 		A293F39327AD2CB100D5E823 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39227AD2CB100D5E823 /* SettingView.swift */; };
 		A293F39627AE18B800D5E823 /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39527AE18B800D5E823 /* CardBack.swift */; };
 		A293F39827AE3FAB00D5E823 /* Eclipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39727AE3FAB00D5E823 /* Eclipse.swift */; };
+		A293F39A27AED9B300D5E823 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39927AED9B300D5E823 /* File.swift */; };
 		B8DAD9B01271787EEA483321 /* Pods_SuperBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CD30EFC307ABB683883054 /* Pods_SuperBody.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		A293F39227AD2CB100D5E823 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		A293F39527AE18B800D5E823 /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
 		A293F39727AE3FAB00D5E823 /* Eclipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eclipse.swift; sourceTree = "<group>"; };
+		A293F39927AED9B300D5E823 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		F6CD30EFC307ABB683883054 /* Pods_SuperBody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperBody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -260,6 +262,7 @@
 		A293F39427AE187E00D5E823 /* RES */ = {
 			isa = PBXGroup;
 			children = (
+				A293F39927AED9B300D5E823 /* File.swift */,
 				A293F39527AE18B800D5E823 /* CardBack.swift */,
 				A293F39727AE3FAB00D5E823 /* Eclipse.swift */,
 			);
@@ -423,6 +426,7 @@
 				A293F36427ACDB6700D5E823 /* DefultStore.swift in Sources */,
 				A293F35427ACD9B100D5E823 /* AppDelegate.swift in Sources */,
 				A293F35627ACD9CC00D5E823 /* SceneDelegate.swift in Sources */,
+				A293F39A27AED9B300D5E823 /* File.swift in Sources */,
 				A293F36F27ACDB9300D5E823 /* Color.swift in Sources */,
 				A293F35927ACDA1E00D5E823 /* PublicFuncs.swift in Sources */,
 				A293F34727ACD86500D5E823 /* Persistence.swift in Sources */,
