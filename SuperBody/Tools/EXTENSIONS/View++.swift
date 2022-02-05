@@ -23,8 +23,8 @@ struct isPreview_ViewModifier : ViewModifier{
                     Color.back1.ignoresSafeArea()
                     content
                 }
-          
             }
+            .preferredColorScheme(.dark)
         
     }
 }

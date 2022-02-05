@@ -20,10 +20,10 @@ public func Customappearance() {
 //    appearance.configureWithOpaqueBackground()
 //    appearance.backgroundColor = UIColor(Color.BackGround)
  
-
-    UINavigationBar.appearance().compactAppearance = appearance
-    UINavigationBar.appearance().standardAppearance = appearance
-    UINavigationBar.appearance().scrollEdgeAppearance = appearance
+//
+//    UINavigationBar.appearance().compactAppearance = appearance
+//    UINavigationBar.appearance().standardAppearance = appearance
+//    UINavigationBar.appearance().scrollEdgeAppearance = appearance
 
 //  UITableView.appearance().separatorStyle = .none
     UITableView.appearance().separatorColor = UIColor(Color.clear)

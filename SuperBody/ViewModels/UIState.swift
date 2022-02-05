@@ -12,20 +12,20 @@ class UIState : ObservableObject {
     static let share = UIState()
     
     @Published var tabbarTarget : TabbarEnum = .checklist
-    var tabbarItems : [TabbarEnum] = [.checklist,.timeline,.inbox]
+    var tabbarItems : [TabbarEnum] = [.checklist,.cards,.timeline]
     
     enum TabbarEnum{
         case checklist
+        case cards
         case timeline
-        case inbox
         
         var index : Int{
             switch self {
             case .checklist:
                 return 1
-            case .timeline:
+            case .cards:
                 return 2
-            case .inbox:
+            case .timeline:
                 return 3
             }
         }
@@ -34,10 +34,10 @@ class UIState : ObservableObject {
             switch self {
             case .checklist:
                return "今日"
-            case .timeline:
+            case .cards:
                return "习惯卡片"
-            case .inbox:
-               return "回收"
+            case .timeline:
+               return "回顾"
             }
         }
         
@@ -45,10 +45,10 @@ class UIState : ObservableObject {
             switch self {
             case .checklist:
                return "checklist"
-            case .timeline:
+            case .cards:
                return "cards"
-            case .inbox:
-               return "inbox"
+            case .timeline:
+               return "repo-24"
             }
         }
     
