@@ -27,9 +27,11 @@ struct ContentView: View {
         
         ZStack{
             Color.back1.ignoresSafeArea()
+            
             RadialGradient(gradient: Gradient(colors: [TopColorShow ? Color.init(hex: "4D6A73") : .clear, Color.back1]), center: .topLeading, startRadius: 5, endRadius: 500)
                 .animation(.spring(), value: uistate.tabbarTarget)
                 .ignoresSafeArea()
+                .ifshow(uistate.tabbarTarget == .checklist, animation: .spring(), transition: .opacity)
             
             Group{
                 switch uistate.tabbarTarget{
@@ -39,6 +41,8 @@ struct ContentView: View {
                     CardsView()
                 case .timeline :
                     InboxView()
+                case .statistics:
+                    StatisticsView()
                 }
             }
         }

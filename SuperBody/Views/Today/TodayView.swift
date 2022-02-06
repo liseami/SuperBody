@@ -22,41 +22,41 @@ struct TodayView: View {
         
         //---------
         //下拉刷新
-        .refreshable {}
-
-        //---------
-        //搜索功能
-        .searchable(text: $searchInput, placement: .automatic, prompt: Text("搜索习惯"))
+            .refreshable {}
         
         //---------
         //搜索功能
-        .PF_Navilink(isPresented: $showSettingView, content: {
-            SettingView()
-        })
+            .searchable(text: $searchInput, placement: .automatic, prompt: Text("搜索习惯"))
         
         //---------
         //搜索功能
-        .PF_Navitop(style:offset < -5 ? .large :.none , backgroundView: {
-            Color.black.opacity(0.5)
-        }, TopCenterView: {
-        })
+            .PF_Navilink(isPresented: $showSettingView, content: {
+                SettingView()
+            })
+        
+        //---------
+        //搜索功能
+            .PF_Navitop(style:offset < -5 ? .large :.none , backgroundView: {
+                Color.black.opacity(0.5)
+            }, TopCenterView: {
+            })
         
         //---------
         //工具栏
-        .toolbar(content: {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                today_title
-            }
-        })
+            .toolbar(content: {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    today_title
+                }
+            })
         
-        .navigationTitle(Text("今天"))
-        .navigationBarTitleDisplayMode(.large)
+            .navigationTitle(Text("今天"))
+            .navigationBarTitleDisplayMode(.large)
         
         
         
     }
     
-
+    
     
     var today_tasklist : some View{
         List {
@@ -65,31 +65,20 @@ struct TodayView: View {
                     .listRowSeparator(.hidden)
                     .listRowBackground(Color.clear)
                     .listRowInsets(.init(top: 6, leading: 12, bottom: 6, trailing: 12))
-
-                    
+                
+                
             }
         }
         .listStyle(.plain)
         
-           
+        
     }
     
-    struct bo :  ButtonStyle{
-        func makeBody(configuration: Configuration) -> some View {
-            
-            return
-            configuration.label
-                .background(Color.green)
-            
-        }
-    }
     
     var today_title : some View {
-                HStack(spacing:24){
-                    ICON(sysname: "magnifyingglass",fcolor: .fc1,size: 16, fontWeight: .thin)
-                    
-                    ICON(sysname: "plus",fcolor: .fc1,size: 16, fontWeight: .thin)
-            }
+        HStack(spacing:24){
+            ICON(sysname: "slider.horizontal.3",fcolor: .fc1,size: 18, fontWeight: .thin)
+        }
     }
 }
 

@@ -29,15 +29,14 @@ struct Tabbar: View {
                             .overlay(
                                 VStack(spacing:4){
                                     ICON(name: tabbaritem.iconname,fcolor: selected ? .fc1 : .fc2,size: 26)
-                                    Text(tabbaritem.title)
-                                        .mFont(style:selected ? .Caption_10_B : .Caption_10_R,color:selected ? .fc1 : .fc2)
                                 }
                           )
 
                     }
                     .buttonStyle(.borderless)
                 }
-            }.padding(.top,8),alignment: .bottom)
+            }.padding(.horizontal,8)
+                        .padding(.top,8),alignment: .bottom)
        
 
     }
@@ -47,6 +46,6 @@ struct Tabbar: View {
 struct Tabbar_Previews: PreviewProvider {
     static var previews: some View {
         Tabbar()
-            .preferredColorScheme(.dark)
+            .isPreviewView()
     }
 }

@@ -40,6 +40,7 @@
 		A293F39627AE18B800D5E823 /* DreamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39527AE18B800D5E823 /* DreamCard.swift */; };
 		A293F39827AE3FAB00D5E823 /* Eclipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39727AE3FAB00D5E823 /* Eclipse.swift */; };
 		A293F39A27AED9B300D5E823 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39927AED9B300D5E823 /* File.swift */; };
+		A293F39D27AFD17F00D5E823 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293F39C27AFD17F00D5E823 /* StatisticsView.swift */; };
 		B8DAD9B01271787EEA483321 /* Pods_SuperBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CD30EFC307ABB683883054 /* Pods_SuperBody.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		A293F39527AE18B800D5E823 /* DreamCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamCard.swift; sourceTree = "<group>"; };
 		A293F39727AE3FAB00D5E823 /* Eclipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eclipse.swift; sourceTree = "<group>"; };
 		A293F39927AED9B300D5E823 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A293F39C27AFD17F00D5E823 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		F6CD30EFC307ABB683883054 /* Pods_SuperBody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperBody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -201,9 +203,10 @@
 		A293F37B27AD074700D5E823 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A293F38327AD11AB00D5E823 /* Inbox */,
-				A293F38227AD11A200D5E823 /* Cards */,
+				A293F39B27AFD17300D5E823 /* Statistics */,
 				A293F38127AD119B00D5E823 /* Today */,
+				A293F38227AD11A200D5E823 /* Cards */,
+				A293F38327AD11AB00D5E823 /* Inbox */,
 				A293F37C27AD075300D5E823 /* Tabbar.swift */,
 				A293F39227AD2CB100D5E823 /* SettingView.swift */,
 			);
@@ -267,6 +270,14 @@
 				A293F39727AE3FAB00D5E823 /* Eclipse.swift */,
 			);
 			path = RES;
+			sourceTree = "<group>";
+		};
+		A293F39B27AFD17300D5E823 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				A293F39C27AFD17F00D5E823 /* StatisticsView.swift */,
+			);
+			path = Statistics;
 			sourceTree = "<group>";
 		};
 		CC2564A032D08A2A17E96F4F /* Frameworks */ = {
@@ -422,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A293F38727AD11DA00D5E823 /* CardsView.swift in Sources */,
+				A293F39D27AFD17F00D5E823 /* StatisticsView.swift in Sources */,
 				A293F36227ACDB1000D5E823 /* UmMd.swift in Sources */,
 				A293F36427ACDB6700D5E823 /* DefultStore.swift in Sources */,
 				A293F35427ACD9B100D5E823 /* AppDelegate.swift in Sources */,

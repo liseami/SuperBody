@@ -18,7 +18,7 @@ extension Color  {
 
     static var back1 = Color("back1")
     static var back2 = Color("back2")
-    static var back3 = Color("back3")
+    static var border = Color("border")
     
     static let fc1 = Color("fc1")
     static let fc2 = Color("fc2")
